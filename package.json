@@ -1,7 +1,7 @@
 {
-  "name": "vue-vite",
+  "name": "dharma-task-manager",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,13 +10,25 @@
   },
   "dependencies": {
     "@chainsafe/libp2p-gossipsub": "^14.1.0",
-    "@orbitdb/core": "^2.4.3",
-    "helia": "^5.2.0",
-    "vue": "^3.5.13"
+    "@chainsafe/libp2p-noise": "^16.0.3",
+    "@chainsafe/libp2p-yamux": "^7.0.1",
+    "@libp2p/bootstrap": "^11.0.31",
+    "@libp2p/identify": "^3.0.27",
+    "@libp2p/tcp": "^10.1.8",
+    "@libp2p/websockets": "^9.2.8",
+    "@orbitdb/core": "^2.5.0",
+    "blockstore-level": "^2.0.1",
+    "date-fns": "^2.30.0",
+    "helia": "^5.3.0",
+    "pinia": "^2.1.7",
+    "vue": "^3.5.13",
+    "vue-router": "^4.2.5"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.1",
+    "lightningcss": "^1.22.1",
     "vite": "^6.0.11",
+    "vite-plugin-lightningcss": "^0.0.5",
     "vite-plugin-node-polyfills": "^0.23.0"
   }
 }
